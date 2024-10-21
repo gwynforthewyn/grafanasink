@@ -1,4 +1,4 @@
-module github.com/playtechnique/grafanasink
+module github.com/playtechnique/grinksync
 
 go 1.22.2
 

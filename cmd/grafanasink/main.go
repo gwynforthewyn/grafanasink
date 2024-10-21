@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"github.com/playtechnique/grafanasink"
+	"github.com/playtechnique/grinksync"
 )
 
 func main() {
-	os.Exit(grafanasink.Main(os.Args[1:], os.Stdout))
+	os.Exit(grinksync.Main(os.Args[1:], os.Stdout))
 }
