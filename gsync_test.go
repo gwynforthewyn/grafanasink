@@ -1,4 +1,4 @@
-package grinksync_test
+package gsync_test 
 
 import (
 	"bytes"

@@ -1,4 +1,4 @@
-package grinksync
+package gsync
 
 import (
 	"database/sql"
@@ -75,7 +75,7 @@ func NewGrafanaDbSubscriber(dbLocation string, driverName string, printDest io.W
 
 func Main(args []string, printDest io.Writer) int {
 	dbLocation := "./sqlite.db"
-	driverName := "grinksync"
+	driverName := "gsync"
 
 	_, err := NewGrafanaDbSubscriber(dbLocation, driverName, os.Stdout)
 

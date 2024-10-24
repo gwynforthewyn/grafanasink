@@ -1,4 +1,4 @@
-module github.com/playtechnique/grinksync
+module github.com/playtechnique/gsync
 
 go 1.22.2
 

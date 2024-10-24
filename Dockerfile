@@ -1,8 +1,8 @@
 FROM grafana/grafana:latest
 
-COPY --chown=grafana:grafana grinksync .
-RUN chmod +x grinksync
-#may need to chown grinksync to grafana user
+COPY --chown=grafana:grafana gsync .
+RUN chmod +x gsync
+#may need to chown gsync to grafana user
 
-RUN ./grinksync &
+RUN ./gsync &
 # RUN the grafana startup command

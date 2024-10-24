@@ -7,7 +7,7 @@ test:
 .PHONY: prototype
 
 prototype: build
-	docker build -t playtechnique/grinksync:0.0.0 .
+	docker build -t playtechnique/gsync:0.0.0 .
 
 protorun: prototype
-	docker run -it --name grinksync --rm -p 3000:3000 playtechnique/grinksync:0.0.0
+	docker run -it --name gsync --rm -p 3000:3000 playtechnique/gsync:0.0.0

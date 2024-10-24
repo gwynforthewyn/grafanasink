@@ -16,7 +16,7 @@
             "type": "go",
             "request": "launch",
             "mode": "test",
-            "program": "${workspaceFolder}/grinksync_test.go",
+            "program": "${workspaceFolder}/gsync_test.go",
             "args": []
         }
     ]

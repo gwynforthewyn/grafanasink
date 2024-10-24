@@ -11,17 +11,17 @@ services:
     environment:
       - GF_SECURITY_ADMIN_PASSWORD=admin
 
-  grinksync:
+  gsync:
     build:
-      context: ./grinksync
+      context: ./gsync
       dockerfile: Dockerfile
-    container_name: grinksync
+    container_name: gsync
     depends_on:
       - grafana
     volumes:
       - grafana_data:/var/lib/grafana
     # environment:
-    #   # Add any environment variables your grinksync container needs
+    #   # Add any environment variables your gsync container needs
     #   - SOME_ENV_VAR=value
 
 volumes:
